@@ -22,6 +22,7 @@ export default {
   created() {
     console.log('pc的test', test())
     console.log('pc的test2', test2())
+    console.log(this.myMethod)
   }
 }
 </script>

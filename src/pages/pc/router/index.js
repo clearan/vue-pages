@@ -9,5 +9,10 @@ export default new Router({
             name: 'main',
             component: () => import('../view/MainPage')
         },
+        {
+            path: '/form',
+            name:'form',
+            component: () => import(/*webpackChunkName: "router-h5-homepage"*/ '../view/Form')
+        }
     ],
 })
